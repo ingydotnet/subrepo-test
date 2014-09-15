@@ -1,0 +1,22 @@
+Steps:
+
+    mkdir subrepo-testing
+    cd subrepo-test
+    git hub repo-init
+    git hub clone ingydotnet/swim-pm swim-pm-subrepo-test
+    cd swim-pm-subrepo-test/
+    git remote rm origin
+    git hub repo-init
+    git push
+    git hub trust jpadvo
+    cd ..
+
+    git hub clone ingydotnet/swim-plugin-badge-pm swim-plugin-badge-pm-subrepo-test
+    cd swim-plugin-badge-pm-subrepo-test/
+    git remote rm origin
+    git hub repo-init
+    git push
+    git hub trust jpadvo
+    cd ..
+
+

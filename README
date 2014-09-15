@@ -19,4 +19,10 @@ Steps:
     git hub trust jpadvo
     cd ..
 
+    cd swim-pm-subrepo-test/
+    git subrepo clone git@github.com:ingydotnet/swim-plugin-badge-pm-subrepo-test.git plugin/swim-plugin-badge-pm-subrepo-test
+    gll
+    git subrepo status
+    gll bf6c355
+    git push
 
